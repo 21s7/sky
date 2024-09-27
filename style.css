@@ -1,0 +1,53 @@
+body {
+  background-image: url(img/sochi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+}
+
+.главныйКонтейнер {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.лево,
+.право {
+  flex-basis: 40%;
+  padding: 20px;
+  font-size: 25px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.лево {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.право {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+div[id^="1"],
+div[id^="2"],
+div[id^="3"],
+div[id^="4"],
+div[id^="5"],
+div[id^="6"],
+div[id^="7"],
+div[id^="8"],
+div[id^="9"],
+div[id^="10"] {
+  margin-bottom: 10px;
+  color: #252525;
+  font-weight: bold;
+}
